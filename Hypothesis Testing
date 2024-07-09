@@ -22,3 +22,6 @@ t_statistic, p_value = stats.ttest_ind(business_success_rates, government_succes
 
 print(f"T-statistic: {t_statistic}")
 print(f"P-value: {p_value}")
+
+
+We reject the null hypothesis and conclude that there is a significant difference in the success rates between business and government launches.
